@@ -22,7 +22,7 @@ export default function Header() {
             Contacto
           </Link>
         </nav>
-        {/* Mobile menu button could go here, pero para mantenerlo limpio usamos navegación simple */}
+        {/* Mobile menu button could go here */}
       </div>
     </header>
   );
