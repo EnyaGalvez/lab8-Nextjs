@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Terminal, Code2, Database } from 'lucide-react';
+import { Code2, Briefcase, Terminal } from 'lucide-react';
 
 export default function Hero() {
   const techStack = ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL'];
@@ -64,7 +64,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-xl bg-foreground text-background font-semibold hover:bg-foreground/90 transition-colors"
           >
-            <Github size={20} />
+            <Code2 size={20} />
             GitHub
           </a>
           <a
@@ -73,7 +73,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-xl glass hover:bg-white/10 transition-colors font-semibold"
           >
-            <Linkedin size={20} className="text-[#0A66C2]" />
+            <Briefcase size={20} className="text-[#0A66C2]" />
             LinkedIn
           </a>
         </motion.div>

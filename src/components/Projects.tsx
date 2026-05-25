@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Image as ImageIcon } from 'lucide-react';
+import { Code2, ExternalLink, Image as ImageIcon } from 'lucide-react';
 
 export default function Projects() {
   const projects = [
@@ -100,7 +100,7 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-sm font-medium hover:text-accent-primary transition-colors"
                     >
-                      <Github size={18} />
+                      <Code2 size={18} />
                       Repo
                     </a>
                     {project.demo && (
