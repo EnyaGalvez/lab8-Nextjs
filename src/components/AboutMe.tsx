@@ -8,7 +8,7 @@ export default function AboutMe() {
     {
       title: 'Frontend',
       icon: <Layout className="text-accent-secondary" size={24} />,
-      items: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion'],
+      items: ['React', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'HTML5', 'CSS3', 'JavaScript'],
     },
     {
       title: 'Backend',
@@ -33,17 +33,17 @@ export default function AboutMe() {
         >
           <h2 className="text-4xl font-bold mb-2">Sobre Mí</h2>
           <div className="h-1 w-20 bg-gradient-to-r from-accent-primary to-accent-secondary rounded-full mb-10"></div>
-          
+
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6 text-foreground/80 leading-relaxed text-lg">
               <p>
-                ¡Hola! Soy Enya. A lo largo del curso de Sistemas y Tecnologías Web, he descubierto mi pasión por construir aplicaciones interactivas y escalables. 
+                ¡Hola! Soy Enya. A lo largo del curso de Sistemas y Tecnologías Web, he descubierto mi pasión por construir aplicaciones interactivas y escalables.
               </p>
               <p>
                 Mis <strong>intereses profesionales</strong> se centran en el desarrollo Full Stack, especialmente en el ecosistema de JavaScript/TypeScript. Disfruto tanto diseñando interfaces intuitivas en el frontend como estructurando bases de datos y APIs en el backend.
               </p>
               <p>
-                Actualmente, mis <strong>tecnologías favoritas</strong> son React y Next.js por la velocidad de desarrollo y la increíble experiencia de usuario que permiten crear.
+                Actualmente, mis <strong>tecnologías favoritas</strong> son React, Next.js, PostgreSQL y Node.js por la velocidad de desarrollo y la increíble experiencia de usuario que permiten crear.
               </p>
               <div className="glass p-6 rounded-2xl mt-8">
                 <h3 className="flex items-center gap-2 text-xl font-semibold mb-4 text-foreground">
@@ -51,9 +51,6 @@ export default function AboutMe() {
                   ¿Qué quiero seguir aprendiendo?
                 </h3>
                 <p className="text-sm">
-                  {/* Comentario para que parezca escrito por mi */}
-                  {/* Me gustaría meterme más a fondo en temas de Cloud como AWS o Docker, 
-                      siento que es el siguiente paso lógico. */}
                   Me interesa profundizar en la arquitectura en la nube (Cloud Computing), contenedores con Docker y la implementación de CI/CD para optimizar los flujos de trabajo.
                 </p>
               </div>
@@ -61,7 +58,7 @@ export default function AboutMe() {
 
             <div className="space-y-8">
               {skills.map((skill, index) => (
-                <motion.div 
+                <motion.div
                   key={skill.title}
                   initial={{ opacity: 0, x: 20 }}
                   whileInView={{ opacity: 1, x: 0 }}

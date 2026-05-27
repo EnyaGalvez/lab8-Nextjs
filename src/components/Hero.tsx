@@ -1,10 +1,10 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Briefcase, Terminal } from 'lucide-react';
+import { Code2, Terminal } from 'lucide-react';
 
 export default function Hero() {
-  const techStack = ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL'];
+  const techStack = ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL', 'HTML5', 'CSS3', 'JavaScript'];
 
   return (
     <section id="inicio" className="min-h-[80vh] flex items-center justify-center pt-20 px-4">
@@ -34,7 +34,7 @@ export default function Hero() {
             Ing. en Ciencias de la Computación y TI
           </h3>
           <p className="text-lg text-foreground/70 mb-10 max-w-2xl mx-auto leading-relaxed">
-            /* Apasionada por el desarrollo de software y la creación de experiencias web modernas. 
+            /* Apasionada por el desarrollo de software y la creación de experiencias web modernas y accesibles.
             Me encanta aprender nuevas tecnologías y enfrentar desafíos que me hagan crecer como profesional. */
           </p>
         </motion.div>
@@ -66,15 +66,6 @@ export default function Hero() {
           >
             <Code2 size={20} />
             GitHub
-          </a>
-          <a
-            href="https://linkedin.com/in/enya-galvez"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-6 py-3 rounded-xl glass hover:bg-white/10 transition-colors font-semibold"
-          >
-            <Briefcase size={20} className="text-[#0A66C2]" />
-            LinkedIn
           </a>
         </motion.div>
       </div>

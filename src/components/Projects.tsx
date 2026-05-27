@@ -7,48 +7,48 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Vida Sana - Dashboard Nutricional',
-      description: 'Plataforma web para gestión de pacientes y planes nutricionales, desarrollada como proyecto principal del curso.',
-      tech: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
-      repo: 'https://github.com/enya-galvez/vidasana-web',
-      demo: 'https://vidasana.vercel.app',
-      color: 'from-blue-500 to-cyan-500'
+      title: 'Lab 1: Caring for a Normal Pet',
+      description: 'Página web estática sobre el cuidado de una mascota, aplicando conceptos básicos de estructura semántica.',
+      tech: ['HTML5'],
+      repo: 'https://github.com/EnyaGalvez/Lab1SistemasWeb.git',
+      demo: null,
+      color: 'from-orange-400 to-red-500'
     },
     {
       id: 2,
-      title: 'Vida Sana - API Backend',
-      description: 'API RESTful para el manejo de datos de usuarios, métricas de salud y autenticación JWT del proyecto Vida Sana.',
-      tech: ['Node.js', 'Express', 'PostgreSQL', 'Prisma'],
-      repo: 'https://github.com/enya-galvez/vidasana-api',
+      title: 'Caring for a Normal Pet 2',
+      description: 'Mejora visual de la página de cuidado de mascotas utilizando CSS puro, implementando estilos, colores y diseño responsivo.',
+      tech: ['HTML5', 'CSS3'],
+      repo: 'https://github.com/EnyaGalvez/LabSistemasWeb2-CSS.git',
       demo: null,
-      color: 'from-purple-500 to-pink-500'
+      color: 'from-blue-400 to-indigo-500'
     },
     {
       id: 3,
-      title: 'Laboratorio 7 - Todo App en React',
-      description: 'Aplicación de lista de tareas interactiva utilizando React Hooks, estado global y persistencia en LocalStorage.',
-      tech: ['React', 'JavaScript', 'CSS Modules'],
-      repo: 'https://github.com/enya-galvez/lab7-react',
-      demo: 'https://lab7-react.vercel.app',
-      color: 'from-orange-500 to-yellow-500'
+      title: 'Lab 4: Intro a JavaScript',
+      description: 'Introducción a la interactividad web mediante JavaScript, manipulando el DOM y añadiendo lógica del lado del cliente.',
+      tech: ['HTML5', 'CSS3', 'JavaScript'],
+      repo: 'https://github.com/EnyaGalvez/LabSistemasWeb4.git',
+      demo: null,
+      color: 'from-yellow-400 to-orange-500'
     },
     {
       id: 4,
-      title: 'Laboratorio 6 - Pokédex API',
-      description: 'Implementación de un servidor proxy en Node.js para consumir la PokeAPI con caché y rate limiting.',
-      tech: ['Node.js', 'Express', 'Axios'],
-      repo: 'https://github.com/enya-galvez/lab6-api',
+      title: 'Lab 6: Node JS',
+      description: 'Desarrollo de un servidor backend básico utilizando Node.js para manejar rutas y peticiones HTTP.',
+      tech: ['Node.js', 'Express'],
+      repo: 'https://github.com/EnyaGalvez/Lab6Web-NodeJS.git',
       demo: null,
       color: 'from-green-400 to-emerald-600'
     },
     {
       id: 5,
-      title: 'Laboratorio 5 - Calculadora JS',
-      description: 'Calculadora funcional en el navegador con diseño neomorfista utilizando Vanilla JS y manipulación del DOM.',
-      tech: ['HTML5', 'CSS3', 'JavaScript'],
-      repo: 'https://github.com/enya-galvez/lab5-calculadora',
-      demo: 'https://enya-galvez.github.io/lab5-calculadora',
-      color: 'from-red-500 to-rose-600'
+      title: 'Lab 7: Express.js y React',
+      description: 'Integración de una interfaz de usuario en React con un backend en Express.js, demostrando la comunicación cliente-servidor.',
+      tech: ['React', 'Node.js', 'Express'],
+      repo: 'https://github.com/EnyaGalvez/Lab7Web-Express-React.git',
+      demo: null,
+      color: 'from-cyan-400 to-blue-500'
     }
   ];
 

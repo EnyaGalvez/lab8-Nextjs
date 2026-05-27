@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Code2, Briefcase, Send } from 'lucide-react';
+import { Mail, Code2, Send } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -52,20 +52,7 @@ export default function Contact() {
                   </div>
                 </a>
 
-                <a
-                  href="https://linkedin.com/in/enya-galvez"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 text-foreground/80 hover:text-accent-primary transition-colors"
-                >
-                  <div className="w-12 h-12 rounded-full glass flex items-center justify-center">
-                    <Briefcase size={20} />
-                  </div>
-                  <div>
-                    <p className="text-sm text-foreground/50">LinkedIn</p>
-                    <p className="font-medium">Enya Ayleen Gálvez Hernández</p>
-                  </div>
-                </a>
+
               </div>
             </div>
 
