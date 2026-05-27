@@ -3,7 +3,7 @@
 Portafolio personal interactivo construido utilizando **Next.js**, **React**, y **Tailwind CSS**.
 
 ## Enlace de Despliegue (Vercel)
-[Enlace aquí a Vercel]()
+[Enlace aquí al portafolio en Vercel](https://lab8-portafolio-rosy.vercel.app)
 
 ## Descripción del Proyecto
 El portafolio incluye las siguientes secciones:
