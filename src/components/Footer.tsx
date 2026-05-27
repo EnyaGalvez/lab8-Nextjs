@@ -7,7 +7,7 @@ export default function Footer() {
         <p>© {new Date().getFullYear()} Enya Ayleen Gálvez Hernández. Todos los derechos reservados.</p>
         <p className="mt-2 text-xs">
           {/* Un pequeño toque personal que el profe puede notar */}
-          Desarrollado con Next.js y Tailwind CSS para el Laboratorio 8.
+          Desarrollado con Next.js para el Laboratorio 8.
         </p>
       </div>
     </footer>

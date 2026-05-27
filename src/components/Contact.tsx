@@ -38,7 +38,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://github.com/enya-galvez"
+                  href="https://github.com/EnyaGalvez"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-foreground/80 hover:text-accent-primary transition-colors"

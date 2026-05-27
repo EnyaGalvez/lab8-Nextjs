@@ -59,7 +59,7 @@ export default function Hero() {
           className="flex items-center justify-center gap-6"
         >
           <a
-            href="https://github.com/enya-galvez"
+            href="https://github.com/EnyaGalvez"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 rounded-xl bg-foreground text-background font-semibold hover:bg-foreground/90 transition-colors"
